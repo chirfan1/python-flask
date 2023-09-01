@@ -5,5 +5,5 @@ views = Blueprint(__name__, "views")
 
 @views.route("/")
 def home():
-    return "Homeeee!!!"
+    return "Hello World!"
 
